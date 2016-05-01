@@ -3,58 +3,68 @@ html {
   width: 100%;
 }
 body {
-  margin: 0 !important;
+  margin: 0;
   display: flex;
   height: 100%;
   width: 100%;
 }
 
-div {
+div, h1 {
   width: 100%;
+}
+
+h1 {
+  margin: 0;
 }
 
 div.parent-container {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
+  text-align: center;
+}
+
+h1.header {
+  background-color: #177ECC;
+  flex-direction: column;
 }
 
 div.name-container {
-  background-color: #575FB2;
+  background-color: #6691B2;
   flex-direction: column;
 }
 
 div.superhero-container {
-  background-color: #FF6A2D;
+  background-color: #177ECC;
   flex-direction: column;
 }
 
 div.music-container {
-  background-color: #0018FF;
+  background-color: #6691B2;
   flex-direction: column;
 }
 
 div.color-container {
-  background-color: #49CC00;
+  background-color: #177ECC;
   flex-direction: column;
 }
 
 div.holiday-container {
-  background-color: #575FB2;
+  background-color: #6691B2;
   flex-direction: column;
 }
 
 div.cartoon-container {
-  background-color: #FF6A2D;
+  background-color: #177ECC;
   flex-direction: column;
 }
 
 div.subject-container {
-  background-color: #0018FF;
+  background-color: #6691B2;
   flex-direction: column;
 }
 
 div.food-container {
-  background-color: #49CC00;
+  background-color: #177ECC;
   flex-direction: column;
 }
