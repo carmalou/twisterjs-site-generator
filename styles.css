@@ -1,0 +1,56 @@
+body {
+  margin: 0 !important;
+  /*color: #F8F8FF;*/
+  height: 100%;
+}
+
+div {
+  width: 100%;
+  height: 100%;
+}
+
+div.parent-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+div.name-container {
+  background-color: #575FB2;
+  flex-direction: column;
+}
+
+div.superhero-container {
+  background-color: #FF6A2D;
+  flex-direction: column;
+}
+
+div.music-container {
+  background-color: #0018FF;
+  flex-direction: column;
+}
+
+div.color-container {
+  background-color: #49CC00;
+  flex-direction: column;
+}
+
+div.holiday-container {
+  background-color: #575FB2;
+  flex-direction: column;
+}
+
+div.cartoon-container {
+  background-color: #FF6A2D;
+  flex-direction: column;
+}
+
+div.subject-container {
+  background-color: #0018FF;
+  flex-direction: column;
+}
+
+div.food-container {
+  background-color: #49CC00;
+  flex-direction: column;
+}
